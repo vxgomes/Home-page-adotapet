@@ -12,6 +12,8 @@ a{
 body{
     background-color: #FEE8DB;
     font-family: 'Lilita One', cursive;
+    background: linear-gradient(0deg, #FEE8DB 0%, rgba(254, 232, 219, 0) 36.69%), url(imagens/background-laddingpage.svg);
+    background-size: contain;
 }
 .logo-adotapet{
     margin-top: 30px;
@@ -23,6 +25,7 @@ body{
 #cabecalho{
     max-width: 1280px;
     margin: 0 auto;
+
 }
 #cabecalho .container{
     display: flex;
