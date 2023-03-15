@@ -17,7 +17,7 @@ body{
 }
 .background{
     background: linear-gradient(0deg, #FEE8DB 0%, rgba(254, 232, 219, 0) 36.69%), url(imagens/background-laddingpage.png);
-    height: 800px;
+    
     
 }
 .logo-adotapet{
@@ -45,6 +45,7 @@ body{
     font-size: 24px;
     line-height: 27px;
     color: #000000;
+    font-family: 'Lilita One', cursive;
 }
 
 .nav-item:hover{
@@ -79,6 +80,7 @@ body{
     font-size: 40px;
     line-height: 46px;
     width: 433px;
+    font-family: 'Lilita One', cursive;
 }
 .sub-home{
     font-family: 'Inria Sans', sans-serif;
@@ -98,6 +100,7 @@ body{
     line-height: 27px;
     color: #FFFFFF;
     padding: 23px 69px;
+    font-family: 'Lilita One', cursive;
 }
 .button-doar{
     background: #261E1E;
@@ -108,8 +111,12 @@ body{
     color: #FFFFFF;
     padding: 23px 80px;
     margin-left: 20px;
+    font-family: 'Lilita One', cursive;
 }
 
-@media screen and (max-width: 400px){
-    
-}
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+
