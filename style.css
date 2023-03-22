@@ -114,6 +114,10 @@ body{
     font-family: 'Lilita One', cursive;
 }
 
+.carousel-control-next-icon{
+    background-image: url(imagens/next-button.png);
+}
+
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 
 
